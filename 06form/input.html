@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies to Brighten Your Life</title>
+    <meta name="description" content="A helping guide to making hobbies.">
+    <meta name="author" content="Meisyn Ellison">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- This is the start of the header. -->
+<header>
+
+
+    <h1> Hobbies to Brighten Your Life </h1>
+    <p>Hobbies are fun!</p>
+
+
+</header>
+
+<!-- This is the start of the navigation. -->
+ <nav>
+    <ul> 
+        <li><a href="index.html">Hobbies</a></li>
+        <li><a href="pictures.html">Pictures</a></li>
+        <li><a href="about-me.html">About Me</a></li>
+        <li class="active"><a href="input.html">Input</a></li>
+    </ul>
+ </nav>
+
+ <!-- This is the start of the main section. -->
+<main>
+    <h1>Input</h1>
+    <p>Any suggestions to make this website better! </p>
+ 
+    <form method="get" class="myform" action="sent.html"> 
+        <fieldset> 
+            <legend>Personal Information</legend>
+            <label>First name: <input type="text" name="first" required></label>
+            <label>Last name: <input type="text" name="last" required></label>
+            <label>Phone Number: <input type="tel" name="phone" required placeholder="111-222-3333"></label>
+            <label>Email: <input type="text" name="email" required></label>
+        </fieldset>
+        <fieldset> 
+            <legend>Type of Suggestion</legend>
+            <label><input type="radio" name="content" value="method">Content-based Input</label>
+            <label><input type="radio" name="website" value="method">Website-based Input</label>
+            <label><input type="radio" name="question" value="method">Question for Author</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Specific Page</legend>
+            <label><input type="checkbox" name="hobbies" value="chosen">Hobbies Page</label>
+            <label><input type="checkbox" name="pictures" value="chosen">Pictures Page</label>
+            <label><input type="checkbox" name="aboutme" value="chosen">About Me Page</label>
+            <label><input type="checkbox" name="input" value="chosen">Input Page</label>
+
+            <label>Preferences
+                <select name="time"> 
+                    <option value="none">Select a preferred feedback method </option>
+                    <option value="morning">Email</option>
+                    <option value="noon">Phone Number</option>
+                    <option value="afternoon">Mail</option>
+                    <option value="evening">In-person</option>
+                </select>
+            </label>
+        </fieldset>
+
+        <label>Feedback:<textarea></textarea></label>
+
+        <input  type="submit" value="Send Input"> 
+        </form>
+
+
+
+</main>
+
+<!-- This is the start of the footer. -->
+<footer>
+    <p>&copy; Meisyn Ellison &bull; 2025 </p>
+</footer>
+
+</body>
+
+</html>

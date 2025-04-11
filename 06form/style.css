@@ -1,0 +1,231 @@
+.inria-sans-light {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.inria-sans-regular {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.inria-sans-bold {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.inria-sans-light-italic {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.inria-sans-regular-italic {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.inria-sans-bold-italic {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+  
+body {
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ 
+
+/* Header section styling */
+header {
+  background-color: #fffaba;
+  padding: 1rem 2vw;
+}
+
+header h1 { 
+  margin: 0;
+  color: #161a19;
+  letter-spacing: .5px;
+  font-weight: 800;
+  font-size: 2.1rem;
+
+}
+
+/* Nav section styling */
+
+nav {
+  background-color:#a2ceeb;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0 1vw; 
+  margin: 0;
+  display: flex;
+
+}
+
+nav a {
+  font-size: 1rem;
+  text-decoration: none;
+  color:#161a19;
+  font-weight: 710;
+  display: block;
+  padding: .82rem 1rem;
+}
+
+/* Anchor element styling */
+
+nav a:hover {
+  color: whitesmoke;
+}
+
+/* Main styling */
+ 
+main {
+  padding: 1rem 1.5vw;
+}
+
+main h1 {
+  color: #5c87a9;
+}
+
+main h2 {
+  color:#161a19;
+  margin-bottom: 1rem;
+}
+
+main p {
+  color:black;
+  margin: 1rem;
+}
+
+main ol {
+  padding: .5rem 30px;
+  background-color: #cddfec;
+}
+
+/* Form Styling */
+
+
+.myform fieldset {
+  border: 1px solid #5c87a9;
+  border-radius: 1rem;
+  margin-bottom: .8rem;
+}
+
+.myform legend {
+  color: #5c87a9;
+  font-size: .9rem;
+
+}
+
+.myform label,  select, [type=text], [type=tel], textarea {
+  display:block;
+}
+
+.myform label {
+  margin: .45rem;
+}
+
+.myform [type=text], [type=tel], textarea, select {
+  border: 1px solid #5c87a9;
+  padding: .3rem;
+  width: 250px;
+  border-radius:.3rem;
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 300; 
+}
+
+.myform textarea {
+  height: 4rem;
+}
+
+.myform :required {
+  background-color: rgba(192, 43, 46, 0.189);
+}
+
+.myform [type=submit] {
+  background-color: #43a0b6;
+  color: rgb(240, 239, 239);
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 9px;
+  margin: 1rem 0 0 1vw;
+
+}
+
+/* def term */
+
+main dl dt {
+  color: #5c87a9;
+  font-weight: 850;
+  padding: .5rem 1rem;
+}
+
+main dl dd {
+  color: #161a19;
+  font-size: 1rem;
+  margin-left: 1rem;
+}
+
+main ul {
+  list-style-type:circle;
+}
+
+main ul li {
+  line-height: 115%;
+  margin-bottom: .7rem;
+  font-size: .9rem;
+}
+
+main address {
+  font-style: normal;
+  background-color: #a2ceeb;
+  width: 12rem;
+  padding: .7rem;
+  border: 1px solid #161a19;
+  border-radius: .7rem;
+}
+
+main a {
+  color: #161a19;
+  padding: .5rem 1rem;
+}
+
+main a:hover {
+  color: #fffaba;
+}
+ 
+figure.home {
+  width: 30%;
+  margin: 0 0 0 2px;
+  float: right;
+}
+
+figure.home img {
+width: 100%;
+height: auto;
+
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+footer {
+  background-color: #cddfec;
+  text-align: center;
+  color: #161a19;
+  padding: 1rem 0;
+  font-size: .8rem;
+
+}
